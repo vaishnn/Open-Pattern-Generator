@@ -1,0 +1,12 @@
+import bpy
+def del_properties():
+    del bpy.types.Object.count_sizeandshape
+    del bpy.types.Object.size_sizeandshape
+    del bpy.types.Object.offset_sizeandshape
+    del bpy.types.Object.seed_sizeandshape
+    del bpy.types.Object.grain_sizeandshape
+    del bpy.types.Object.resolution_of_tubes_curves
+    del bpy.types.Object.resolution_of_curves_curves
+    del bpy.types.Object.first_curve_segments_curves
+    del bpy.types.Object.second_curve_segments_curves
+    del bpy.types.Object.radius_of_tubes_curves
