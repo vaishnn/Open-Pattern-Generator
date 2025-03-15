@@ -3,9 +3,9 @@ from ..nodes import geonode, material
 
 class StartOperator(bpy.types.Operator):
     
-    bl_idname = "object.start_operator"
-    bl_label = "Generate DreamScape"
-    bl_description = "Generate Dreamscape to show the controls and other Properties"
+    bl_idname = "object.start_open_pattern_generator_operator"
+    bl_label = "Generate Pattern"
+    bl_description = "Generate Pattern to show the controls and other Properties"
     bl_options = {'REGISTER', 'UNDO'} #So that you can undo the operation.
     def execute(self, context):
         node_tree = geonode.creating_curves_node_group()

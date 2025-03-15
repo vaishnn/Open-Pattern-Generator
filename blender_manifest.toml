@@ -1,8 +1,8 @@
 schema_version = "1.0.0"
 
-id = "DreamScape_generator"
+id = "open_pattern_generator"
 version = "1.0.0"
-name = "Dreamscape Generator"
+name = "Open Pattern Generator"
 tagline = "Generate Patterns, reveal patterns, dissolve patterns"
 maintainer = "Vaishnav"
 website = "https://blendermarket.com/products/neon-dreamscapes"

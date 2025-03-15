@@ -3,10 +3,10 @@ class SizeAndShape_SubPanel(bpy.types.Panel):
     bl_label = "Size and Shape"
     bl_space_type = 'VIEW_3D'  # Correct space type
     bl_region_type = 'UI'
-    bl_category = "DreamScape Generator" # Or your category
+    bl_category = "Open Pattern Generator" # Or your category
     bl_description = "To Control Size and Shape of the curves"
     bl_idname = "OBJECT_PT_sizeandshape_subpanel"
-    bl_parent_id = "OBJECT_PT_dreamscape" # Important: Link to the main panel
+    bl_parent_id = "OBJECT_PT_open_pattern_generator" # Important: Link to the main panel
     bl_options = {'DEFAULT_CLOSED'} # Optional: Start closed
 
     @classmethod
@@ -38,10 +38,10 @@ class Curves_SubPanel(bpy.types.Panel):
     bl_label = "Curves"
     bl_space_type = 'VIEW_3D'  # Correct space type
     bl_region_type = 'UI'
-    bl_category = "DreamScape Generator" # Or your category
+    bl_category = "Open Pattern Generator" # Or your category
     bl_description = "To Control Resolution of the curves, for artistic effect"
     bl_idname = "OBJECT_PT_curves_subpanel"
-    bl_parent_id = "OBJECT_PT_dreamscape" # Important: Link to the main panel
+    bl_parent_id = "OBJECT_PT_open_pattern_generator" # Important: Link to the main panel
     bl_options = {'DEFAULT_CLOSED'} # Optional: Start closed
 
     @classmethod
