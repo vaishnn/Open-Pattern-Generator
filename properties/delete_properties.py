@@ -1,12 +1,58 @@
 import bpy
+
+
 def del_properties():
     del bpy.types.Object.count_sizeandshape
-    del bpy.types.Object.size_sizeandshape
+    del bpy.types.Object.size_x_sizeandshape
+    del bpy.types.Object.size_y_sizeandshape
     del bpy.types.Object.offset_sizeandshape
     del bpy.types.Object.seed_sizeandshape
     del bpy.types.Object.grain_sizeandshape
+    del bpy.types.Object.rotation_random_sizeandshape
+    del bpy.types.Object.rotation_sizeandshape
     del bpy.types.Object.resolution_of_tubes_curves
-    del bpy.types.Object.resolution_of_curves_curves
     del bpy.types.Object.first_curve_segments_curves
     del bpy.types.Object.second_curve_segments_curves
     del bpy.types.Object.radius_of_tubes_curves
+    del bpy.types.Object.random_portion_curve_trimming
+    del bpy.types.Object.true_random_portion_curve_trimming
+    del bpy.types.Object.every_section_curve_trimming
+    del bpy.types.Object.seed_trimming_curve_trimming
+    del bpy.types.Object.trim_portion_curve_trimming
+    del bpy.types.Object.from_start_curve_trimming
+    del bpy.types.Object.from_end_curve_trimming
+    del bpy.types.Object.merge_probability_merge
+    del bpy.types.Object.merge_seed_merge
+    del bpy.types.Object.merge_distance_merge
+    del bpy.types.Object.mode_custom_model
+    del bpy.types.Object.method_custom_model
+    del bpy.types.Object.string_custom_model
+    del bpy.types.Object.string_size_custom_model
+    del bpy.types.Object.gap_between_characters_custom_model
+    del bpy.types.Object.scale_custom_model
+    del bpy.types.Object.image_custom_model
+    del bpy.types.Object.image_smoothness__subdivision__custom_model
+    del bpy.types.Object.subset_curves_custom_model
+    del bpy.types.Object.emission_stenght_color
+    del bpy.types.Object.color_color
+    del bpy.types.Object.seed___colors_color
+    del bpy.types.Object.color_1_color
+    del bpy.types.Object.color_2_color
+    del bpy.types.Object.color_3_color
+    del bpy.types.Object.color_4_color
+    del bpy.types.Object.image_color
+    del bpy.types.Object.animate_color
+    del bpy.types.Object.animation_type_color
+    del bpy.types.Object.wave_motion_color
+    del bpy.types.Object.speed_color
+    del bpy.types.Object.gradient_color
+    del bpy.types.Object.prop_as_prop
+    del bpy.types.Object.seed_as_prop
+    del bpy.types.Object.material__hangers__as_prop
+    del bpy.types.Object.distance_as_prop
+    del bpy.types.Object.radius__comparing__as_prop
+    del bpy.types.Object.have_back_plate_as_prop
+    del bpy.types.Object.material__back_plate__as_prop
+    del bpy.types.Object.outline
+    del bpy.types.Object.both_outline_and_inside
+    del bpy.types.Object.font

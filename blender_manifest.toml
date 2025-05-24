@@ -1,11 +1,11 @@
 schema_version = "1.0.0"
 
-id = "open_pattern_generator"
+id = "pattern_generator"
 version = "1.0.0"
-name = "Open Pattern Generator"
+name = "Pattern Generator"
 tagline = "Generate Patterns, reveal patterns, dissolve patterns"
 maintainer = "Vaishnav"
-website = "https://blendermarket.com/products/neon-dreamscapes"
+website = "https://blendermarket.com/products/pattern-generator"
 type = "add-on"
 blender_version_min = "4.2.0"
 license = ["SPDX:GPL-3.0-or-later"]
